@@ -16,4 +16,6 @@ variable "domain_name" {
 
 variable "mysql_root_password" {
     type = string
+    sensitive = true
+    default   = "RoboShop@1"
 }
