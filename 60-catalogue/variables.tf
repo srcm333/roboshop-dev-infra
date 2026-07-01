@@ -14,7 +14,7 @@ variable "app_version" {
 #    default = "Z07343973IZWQHPNL7C9J"
 #}  
 #
-#variable "domain_name" {
-#    default = "devpreactice.online"
-#}
+variable "domain_name" {
+    default = "devpreactice.online"
+}
 
