@@ -116,3 +116,4 @@ resource "aws_lb_target_group" "catalogue" {
     unhealthy_threshold = 2
   }
 }
+
