@@ -28,12 +28,16 @@ variable "components" {
             rule_priority = 30
             app_version = "v3"
         }
-        shipping = {
+        /* shipping = {
             rule_priority = 40
             app_version = "v3"
-        }
+        } */
         payment = {
             rule_priority = 50
+            app_version = "v3"
+        }
+        frontend = {
+            rule_priority = 10
             app_version = "v3"
         }
         
